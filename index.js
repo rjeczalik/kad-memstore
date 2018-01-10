@@ -4,6 +4,8 @@
 
 'use strict';
 
+require("setimmediate");
+
 var ReadableStream = require('readable-stream');
 
 /**
